@@ -1,6 +1,9 @@
 import React from 'react';
 
+import Map from './Map';
+import markers from './fixtures/markers';
+
 let App = () =>
-  <h1>Google Maps</h1>
+  <Map markers={markers} />
 
 export default App;

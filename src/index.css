@@ -1,5 +1,18 @@
-body {
+html, body, #root {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
+}
+
+body {
   font-family: sans-serif;
+}
+
+.poi {
+  min-width: 200px;
+  min-height: 200px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
 }
